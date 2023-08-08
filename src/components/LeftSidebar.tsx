@@ -44,7 +44,7 @@ const NAVIGATION_ITEMS = [
 
 function LeftSidebar() {
   return (
-    <section className="fixed w-72 flex flex-col">
+    <section className="sticky top-0 w-[20%]  flex flex-col items-scretch h-screen px-4">
       <div className="flex flex-col items-stretch h-full space-y-4 mt-4">
         {NAVIGATION_ITEMS.map(item => (
           <Link
